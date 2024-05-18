@@ -1,0 +1,13 @@
+# Ignore everything in /main/ directory
+/main/*
+
+# Except the following files and directories
+!/main/start.sh
+!/main/logs/
+!/main/whitelist.json
+
+# Also, ignore everything in /main/world/ directory
+/main/world/*
+
+# Except the following directory and its contents
+!/main/world/serverconfig/
