@@ -7,7 +7,7 @@
 !/main/whitelist.json
 
 # Also, ignore everything in /main/world/ directory
-/main/world/*
+!/main/world/
 
 # Except the following directory and its contents
-!/main/world/serverconfig/
+/main/world/serverconfig/

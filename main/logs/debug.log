@@ -8567,3 +8567,10 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [19:33:03] [Server thread/DEBUG] [Elytra Slot]: Loaded com.illusivesoulworks.elytraslot.platform.ForgePlatform@36c9549c for service interface com.illusivesoulworks.elytraslot.platform.services.IPlatform
 [19:33:03] [Server thread/DEBUG] [Elytra Slot]: Loaded com.illusivesoulworks.elytraslot.platform.ForgeClientPlatform@301f9354 for service interface com.illusivesoulworks.elytraslot.platform.services.IClientPlatform
 [19:33:04] [Server thread/DEBUG] [mixin]: Mixing MixinChunkSerializer from architectury.mixins.json into net.minecraft.world.level.chunk.storage.ChunkSerializer
+[19:36:30] [Netty Epoll Server IO #1/DEBUG] [mixin]: Mixing MapItemDataPacketMixin from moonlight-common.mixins.json into net.minecraft.network.protocol.game.ClientboundMapItemDataPacket
+[19:36:30] [Netty Epoll Server IO #1/DEBUG] [mixin]: Renaming synthetic method lambda$moonlight$sendCustomDecorations$1(I)[Lnet/mehvahdjukaar/moonlight/api/map/CustomMapDecoration; to mdd403ca$lambda$moonlight$sendCustomDecorations$1$0 in moonlight-common.mixins.json:MapItemDataPacketMixin
+[19:36:30] [Netty Epoll Server IO #1/DEBUG] [mixin]: Renaming synthetic method lambda$moonlight$sendCustomDecorations$0(Lnet/minecraft/network/FriendlyByteBuf;Lnet/mehvahdjukaar/moonlight/api/map/CustomMapDecoration;)Lnet/mehvahdjukaar/moonlight/api/map/CustomMapDecoration; to mdd403ca$lambda$moonlight$sendCustomDecorations$0$1 in moonlight-common.mixins.json:MapItemDataPacketMixin
+[19:36:32] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[19:36:32] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler]: -Dio.netty.recycler.ratio: 8
+[19:36:32] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler]: -Dio.netty.recycler.chunkSize: 32
+[19:36:32] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler]: -Dio.netty.recycler.blocking: false

@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "additionalplacements:minecraft.stone_pressure_plate",
+    "additionalplacements:minecraft.oak_pressure_plate",
+    "additionalplacements:minecraft.spruce_pressure_plate",
+    "additionalplacements:minecraft.birch_pressure_plate",
+    "additionalplacements:minecraft.jungle_pressure_plate",
+    "additionalplacements:minecraft.acacia_pressure_plate",
+    "additionalplacements:minecraft.cherry_pressure_plate",
+    "additionalplacements:minecraft.dark_oak_pressure_plate",
+    "additionalplacements:minecraft.mangrove_pressure_plate",
+    "additionalplacements:minecraft.bamboo_pressure_plate",
+    "additionalplacements:minecraft.light_weighted_pressure_plate",
+    "additionalplacements:minecraft.heavy_weighted_pressure_plate",
+    "additionalplacements:minecraft.crimson_pressure_plate",
+    "additionalplacements:minecraft.warped_pressure_plate",
+    "additionalplacements:minecraft.polished_blackstone_pressure_plate"
+  ]
+}

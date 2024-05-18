@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "additionalplacements:minecraft.oak_slab",
+    "additionalplacements:minecraft.spruce_slab",
+    "additionalplacements:minecraft.birch_slab",
+    "additionalplacements:minecraft.jungle_slab",
+    "additionalplacements:minecraft.acacia_slab",
+    "additionalplacements:minecraft.cherry_slab",
+    "additionalplacements:minecraft.dark_oak_slab",
+    "additionalplacements:minecraft.mangrove_slab",
+    "additionalplacements:minecraft.bamboo_slab",
+    "additionalplacements:minecraft.crimson_slab",
+    "additionalplacements:minecraft.warped_slab"
+  ]
+}

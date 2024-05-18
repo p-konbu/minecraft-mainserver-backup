@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "additionalplacements:minecraft.stone_pressure_plate",
+    "additionalplacements:minecraft.polished_blackstone_pressure_plate"
+  ]
+}
