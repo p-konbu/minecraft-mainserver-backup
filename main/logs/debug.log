@@ -8576,3 +8576,5 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [19:36:32] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler]: -Dio.netty.recycler.blocking: false
 [19:38:02] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
 [19:38:02] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[19:43:02] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[19:43:02] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
