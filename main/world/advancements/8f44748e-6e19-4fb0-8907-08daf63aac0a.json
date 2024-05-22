@@ -1709,42 +1709,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/fishy_business": {
-    "criteria": {
-      "salmon": "2024-05-20 21:04:23 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_smoking": {
-    "criteria": {
-      "has_cod": "2024-05-20 21:05:03 +0900"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/anchovy_pizza": {
-    "criteria": {
-      "has_anchovies": "2024-05-20 21:06:14 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon": {
-    "criteria": {
-      "has_salmon": "2024-05-20 21:04:24 +0900"
-    },
-    "done": true
-  },
-  "croptopia:gather_food": {
-    "criteria": {
-      "anchovy": "2024-05-20 21:06:14 +0900"
-    },
-    "done": false
-  },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
-    "criteria": {
-      "has_salmon": "2024-05-20 21:04:24 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/acacia_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2024-05-20 20:36:27 +0900"
@@ -1757,15 +1721,33 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2024-05-20 21:04:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-05-20 21:04:24 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-05-20 21:04:24 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2024-05-20 21:04:24 +0900"
     },
     "done": true
   },
-  "croptopia:recipes/food/cooked_anchovy_from_smoking_anchovy": {
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
-      "has_anchovy": "2024-05-20 21:06:14 +0900"
+      "has_cod": "2024-05-20 21:05:03 +0900"
     },
     "done": true
   },
@@ -1781,9 +1763,87 @@
     },
     "done": true
   },
+  "croptopia:recipes/misc/anchovy_pizza": {
+    "criteria": {
+      "has_anchovies": "2024-05-20 21:06:14 +0900"
+    },
+    "done": true
+  },
+  "croptopia:gather_food": {
+    "criteria": {
+      "anchovy": "2024-05-20 21:06:14 +0900"
+    },
+    "done": false
+  },
+  "croptopia:recipes/food/cooked_anchovy_from_smoking_anchovy": {
+    "criteria": {
+      "has_anchovy": "2024-05-20 21:06:14 +0900"
+    },
+    "done": true
+  },
   "croptopia:recipes/food/cooked_anchovy_from_anchovy": {
     "criteria": {
       "has_anchovy": "2024-05-20 21:06:14 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-05-21 22:46:32 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_shrimp_from_shrimp": {
+    "criteria": {
+      "has_shrimp": "2024-05-21 22:47:54 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-05-21 22:30:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-05-21 22:46:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2024-05-21 22:46:32 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/deep_fried_shrimp": {
+    "criteria": {
+      "has_shrimp": "2024-05-21 22:47:54 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_shrimp_from_smoking_shrimp": {
+    "criteria": {
+      "has_shrimp": "2024-05-21 22:47:54 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2024-05-21 22:30:31 +0900"
+    },
+    "done": true
+  },
+  "mores:obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_cobalt_ore": "2024-05-21 22:47:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-05-21 22:30:31 +0900"
     },
     "done": true
   },
