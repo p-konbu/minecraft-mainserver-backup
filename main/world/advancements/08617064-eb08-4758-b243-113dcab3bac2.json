@@ -388,9 +388,11 @@
       "minecraft:pillager": "2024-05-18 22:39:32 +0900",
       "minecraft:blaze": "2024-05-21 23:27:07 +0900",
       "minecraft:skeleton": "2024-05-20 23:02:33 +0900",
+      "minecraft:ghast": "2024-05-22 22:54:56 +0900",
       "minecraft:hoglin": "2024-05-21 23:21:48 +0900",
       "minecraft:magma_cube": "2024-05-21 23:31:53 +0900",
       "minecraft:spider": "2024-05-18 22:26:59 +0900",
+      "minecraft:cave_spider": "2024-05-22 23:21:06 +0900",
       "minecraft:zombie": "2024-05-18 22:00:53 +0900",
       "minecraft:drowned": "2024-05-21 20:52:02 +0900",
       "minecraft:zombie_villager": "2024-05-18 22:26:04 +0900"
@@ -1084,6 +1086,7 @@
       "obtain_tin_ingot": "2024-05-18 23:20:21 +0900",
       "obtain_tanzanite_gem": "2024-05-21 23:24:07 +0900",
       "obtain_silver_ingot": "2024-05-18 23:20:41 +0900",
+      "obtain_moissanite_gem": "2024-05-22 21:15:39 +0900",
       "obtain_sapphire_gem": "2024-05-19 01:55:47 +0900",
       "obtain_turquoise_gem": "2024-05-19 01:40:54 +0900",
       "obtain_steel_ingot": "2024-05-21 00:53:06 +0900"
@@ -2620,20 +2623,17 @@
     },
     "done": true
   },
-  "croptopia:recipes/pork_and_beans": {
+  "minecraft:recipes/misc/nether_brick": {
     "criteria": {
-      "has_pork": "2024-05-21 23:22:04 +0900"
+      "has_netherrack": "2024-05-21 20:36:50 +0900"
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
+  "minecraft:recipes/decorations/grindstone": {
     "criteria": {
-      "minecraft:crimson_forest": "2024-05-21 23:16:02 +0900",
-      "minecraft:nether_wastes": "2024-05-21 23:22:46 +0900",
-      "minecraft:basalt_deltas": "2024-05-21 23:24:31 +0900",
-      "minecraft:warped_forest": "2024-05-21 21:33:26 +0900"
+      "has_stone_slab": "2024-05-21 20:36:52 +0900"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
@@ -2641,19 +2641,19 @@
     },
     "done": true
   },
-  "croptopia:recipes/carnitas": {
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
-      "has_porkchop": "2024-05-21 23:22:04 +0900"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2024-05-21 21:33:25 +0900"
+      "has_golden_pickaxe": "2024-05-21 20:37:00 +0900"
     },
     "done": true
   },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-05-21 20:37:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2024-05-21 20:37:10 +0900"
     },
@@ -2665,9 +2665,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_sign": {
+  "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
-      "has_planks": "2024-05-21 21:16:01 +0900"
+      "has_snowball": "2024-05-21 20:50:39 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-05-21 20:55:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-05-21 20:55:28 +0900"
     },
     "done": true
   },
@@ -2677,81 +2689,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_pickaxe": "2024-05-21 20:37:00 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2024-05-21 20:37:10 +0900"
-    },
-    "done": true
-  },
-  "mores:mine_nether_silver": {
-    "criteria": {
-      "obtain_silver_ore": "2024-05-21 23:23:53 +0900"
-    },
-    "done": true
-  },
-  "mores:craft_full_ruby_armor": {
-    "criteria": {
-      "obtain_ruby": "2024-05-21 22:45:49 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2024-05-21 23:22:04 +0900"
-    },
-    "done": true
-  },
-  "croptopia:recipes/shaped_bacon": {
-    "criteria": {
-      "has_porkchop": "2024-05-21 23:22:04 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2024-05-21 20:58:54 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_fence": {
-    "criteria": {
-      "has_planks": "2024-05-21 21:16:01 +0900"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/cooked_shrimp_from_shrimp": {
-    "criteria": {
-      "has_shrimp": "2024-05-21 22:47:31 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/conduit": {
-    "criteria": {
-      "has_nautilus_core": "2024-05-21 21:20:32 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_slab": {
-    "criteria": {
-      "has_planks": "2024-05-21 21:16:01 +0900"
-    },
-    "done": true
-  },
-  "mores:obtain_ruby": {
-    "criteria": {
-      "obtain_ruby_gem": "2024-05-21 21:43:22 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_button": {
-    "criteria": {
-      "has_planks": "2024-05-21 21:16:01 +0900"
     },
     "done": true
   },
@@ -2761,48 +2701,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop": {
+  "minecraft:recipes/misc/wheat": {
     "criteria": {
-      "has_porkchop": "2024-05-21 23:22:04 +0900"
+      "has_hay_block": "2024-05-21 21:09:11 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-05-21 21:16:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2024-05-21 21:16:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-05-21 21:16:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-05-21 21:16:01 +0900"
     },
     "done": true
   },
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_planks": "2024-05-21 21:16:01 +0900"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/deep_fried_shrimp": {
-    "criteria": {
-      "has_shrimp": "2024-05-21 22:47:31 +0900"
-    },
-    "done": true
-  },
-  "mores:craft_full_ruby_gear": {
-    "criteria": {
-      "craft_ruby_chestplate": "2024-05-21 22:13:37 +0900",
-      "craft_ruby_boots": "2024-05-21 22:45:49 +0900",
-      "craft_ruby_leggings": "2024-05-21 22:13:51 +0900",
-      "craft_ruby_helmet": "2024-05-21 22:45:42 +0900"
-    },
-    "done": false
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2024-05-21 21:33:25 +0900"
-    },
-    "done": true
-  },
-  "mores:obtain_tanzanite": {
-    "criteria": {
-      "obtain_steel_ingot": "2024-05-21 23:24:07 +0900"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2024-05-21 20:55:28 +0900"
     },
     "done": true
   },
@@ -2824,15 +2755,105 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2024-05-21 21:16:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2024-05-21 21:20:32 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-05-21 21:33:25 +0900"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-05-21 21:33:25 +0900"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2024-05-21 23:16:02 +0900",
+      "minecraft:nether_wastes": "2024-05-21 23:22:46 +0900",
+      "minecraft:basalt_deltas": "2024-05-21 23:24:31 +0900",
+      "minecraft:warped_forest": "2024-05-21 21:33:26 +0900"
+    },
+    "done": false
+  },
+  "mores:obtain_ruby": {
+    "criteria": {
+      "obtain_ruby_gem": "2024-05-21 21:43:22 +0900"
+    },
+    "done": true
+  },
+  "mores:craft_full_ruby_gear": {
+    "criteria": {
+      "craft_ruby_chestplate": "2024-05-21 22:13:37 +0900",
+      "craft_ruby_boots": "2024-05-21 22:45:49 +0900",
+      "craft_ruby_leggings": "2024-05-21 22:13:51 +0900",
+      "craft_ruby_helmet": "2024-05-21 22:45:42 +0900"
+    },
+    "done": false
+  },
+  "mores:craft_full_ruby_armor": {
+    "criteria": {
+      "obtain_ruby": "2024-05-21 22:45:49 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_shrimp_from_shrimp": {
+    "criteria": {
+      "has_shrimp": "2024-05-21 22:47:31 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/deep_fried_shrimp": {
+    "criteria": {
+      "has_shrimp": "2024-05-21 22:47:31 +0900"
+    },
+    "done": true
+  },
   "croptopia:recipes/food/cooked_shrimp_from_smoking_shrimp": {
     "criteria": {
       "has_shrimp": "2024-05-21 22:47:31 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
+  "croptopia:recipes/pork_and_beans": {
     "criteria": {
-      "has_glowstone_dust": "2024-05-21 23:38:35 +0900"
+      "has_pork": "2024-05-21 23:22:04 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/carnitas": {
+    "criteria": {
+      "has_porkchop": "2024-05-21 23:22:04 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-05-21 23:22:04 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_bacon": {
+    "criteria": {
+      "has_porkchop": "2024-05-21 23:22:04 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-05-21 23:22:04 +0900"
     },
     "done": true
   },
@@ -2842,33 +2863,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/grindstone": {
+  "mores:mine_nether_silver": {
     "criteria": {
-      "has_stone_slab": "2024-05-21 20:36:52 +0900"
+      "obtain_silver_ore": "2024-05-21 23:23:53 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/misc/wheat": {
+  "mores:obtain_tanzanite": {
     "criteria": {
-      "has_hay_block": "2024-05-21 21:09:11 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2024-05-21 20:55:28 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2024-05-21 23:38:35 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_stairs": {
-    "criteria": {
-      "has_planks": "2024-05-21 21:16:01 +0900"
+      "obtain_steel_ingot": "2024-05-21 23:24:07 +0900"
     },
     "done": true
   },
@@ -2878,15 +2881,105 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/nether_brick": {
+  "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
-      "has_netherrack": "2024-05-21 20:36:50 +0900"
+      "has_glowstone_dust": "2024-05-21 23:38:35 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
-      "has_snowball": "2024-05-21 20:50:39 +0900"
+      "has_glowstone_dust": "2024-05-21 23:38:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-05-22 23:33:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "mores:obtain_moissanite": {
+    "criteria": {
+      "obtain_moissanite_ore": "2024-05-22 21:15:39 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
+    },
+    "done": true
+  },
+  "mores:craft_full_moissanite_armor": {
+    "criteria": {
+      "craft_full_shrek_armor": "2024-05-22 23:40:37 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-05-22 23:37:23 +0900"
     },
     "done": true
   },

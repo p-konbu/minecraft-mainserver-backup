@@ -1,70 +1,70 @@
-[09:56:44] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[09:56:44] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Ubuntu; OS Linux arch amd64 version 6.8.0-31-generic
-[09:56:44] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
-[09:56:44] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/mc/mc-servers/main/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23112!/ Service=ModLauncher Env=SERVER
-[09:56:45] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[09:56:45] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 8 dependencies adding them to mods collection
-[09:56:46] [main/INFO] [mixin]: Compatibility level set to JAVA_17
-[09:56:46] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
-[09:56:46] [main/WARN] [mixin]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:56:46] [main/WARN] [mixin]: Reference map 'labels-common-refmap.json' for labels-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:56:46] [main/WARN] [mixin]: Reference map 'labels-forge-refmap.json' for labels.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:56:46] [main/WARN] [mixin]: Reference map 'LMML-1.20.1-common-refmap.json' for littlemaidmodelloader-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:56:46] [main/WARN] [mixin]: Reference map 'LMML-1.20.1-forge-refmap.json' for littlemaidmodelloader.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:56:46] [main/WARN] [mixin]: Reference map 'LMRB-1.20.1-forge-refmap.json' for littlemaidrebirth.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:56:46] [main/INFO] [Puzzles Lib]: All mods {/home/mc/mc-servers/main/mods/caelus-forge-3.2.0+1.20.1.jar#252!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f2fb225, /home/mc/mc-servers/main/mods/Croptopia-1.20.1-FORGE-3.0.4.jar#259!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1883871b, /home/mc/mc-servers/main/mods/simplybackpacks-1.20.1-2.1.5-build.51.jar#283!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3e0a9b1d, /home/mc/mc-servers/main/mods/EpheroLib-1.20.1-FORGE-1.2.0.jar#263!/=fuzs.puzzleslib.impl.core.ForgeModContainer@52f9e8bb, /home/mc/mc-servers/main/mods/mOres-5.3.5-mc1.20.1.jar#278!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2035d65b, /home/mc/mc-servers/main/mods/InventoryProfilesNext-forge-1.20-1.10.10.jar#267!/=fuzs.puzzleslib.impl.core.ForgeModContainer@240a2619, /home/mc/mc-servers/main/libraries/net/minecraftforge/forge/1.20.1-47.2.32/forge-1.20.1-47.2.32-universal.jar#299!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4e3283f6, /home/mc/mc-servers/main/mods/immersive_aircraft-1.0.1+1.20.1-forge.jar#266!/=fuzs.puzzleslib.impl.core.ForgeModContainer@539316bb, /home/mc/mc-servers/main/mods/JustEnoughResources-1.20.1-1.4.0.247.jar#271!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d1a859c, /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_StorageBox_v3.2.5.jar#247!/=fuzs.puzzleslib.impl.core.ForgeModContainer@28554ac8, /home/mc/mc-servers/main/mods/architectury-9.2.14-forge.jar#251!/=fuzs.puzzleslib.impl.core.ForgeModContainer@72224107, /home/mc/mc-servers/main/mods/SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar#284!/=fuzs.puzzleslib.impl.core.ForgeModContainer@394fb736, /home/mc/mc-servers/main/mods/collective-1.20.1-7.57.jar#256!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3070f3e6, /home/mc/mc-servers/main/mods/storagedrawers-1.20.1-12.0.3.jar#285!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3271ec2a, /home/mc/mc-servers/main/mods/Neat-1.20-35-FORGE.jar#280!/=fuzs.puzzleslib.impl.core.ForgeModContainer@52bba91a, /home/mc/mc-servers/main/mods/journeymap-1.20.1-5.9.21-forge.jar#270!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1689527c, /home/mc/mc-servers/main/mods/AdditionalPlacements-1.20-1.8.0.jar#249!/=fuzs.puzzleslib.impl.core.ForgeModContainer@21516c88, /home/mc/mc-servers/main/mods/PuzzlesLib-v8.1.19-1.20.1-Forge.jar#282_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#313!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1c7cd434, /home/mc/mc-servers/main/mods/jei-1.20.1-forge-15.3.0.4.jar#269!/=fuzs.puzzleslib.impl.core.ForgeModContainer@13004dd8, /home/mc/mc-servers/main/mods/YungsApi-1.20-Forge-4.0.5.jar#290!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4fc6e776, /home/mc/mc-servers/main/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#279!/=fuzs.puzzleslib.impl.core.ForgeModContainer@65d9e72a, /home/mc/mc-servers/main/mods/WWOO-FABRIC+FORGE+QUILT-2.0.0.jar#289!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1f7e52d1, /home/mc/mc-servers/main/mods/labels-1.20-1.20.1.jar#273!/=fuzs.puzzleslib.impl.core.ForgeModContainer@e01a26b, /home/mc/mc-servers/main/mods/kotlinforforge-4.10.0-all.jar#272_/META-INF/jarjar/kffmod-4.10.0.jar#318!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7604198a, /home/mc/mc-servers/main/mods/cloth-config-11.1.118-forge.jar#254!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5cce40d7, /home/mc/mc-servers/main/mods/Terralith_1.20_v2.5.1.jar#287!/=fuzs.puzzleslib.impl.core.ForgeModContainer@314b7945, /home/mc/mc-servers/main/mods/[1.20][Forge]TorchBowMod_v1.0.jar#248!/=fuzs.puzzleslib.impl.core.ForgeModContainer@32da97fd, /home/mc/mc-servers/main/mods/Jade-1.20.1-forge-11.9.2.jar#268!/=fuzs.puzzleslib.impl.core.ForgeModContainer@64440065, /home/mc/mc-servers/main/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#292!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4aa22cc2, /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_PickupWidelySMP_v1.2.4.jar#246!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2049e582, /home/mc/mc-servers/main/mods/StylishEffects-v8.0.2-1.20.1-Forge.jar#286!/=fuzs.puzzleslib.impl.core.ForgeModContainer@464aeb09, /home/mc/mc-servers/main/mods/CraftTweaker-forge-1.20.1-14.0.38.jar#257!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c99c8d, /home/mc/mc-servers/main/mods/moonlight-1.20-2.11.20-forge.jar#277!/=fuzs.puzzleslib.impl.core.ForgeModContainer@59d6642a, /home/mc/mc-servers/main/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#294!/=fuzs.puzzleslib.impl.core.ForgeModContainer@365cef67, /home/mc/mc-servers/main/mods/appleskin-forge-mc1.20.1-2.5.1.jar#250!/=fuzs.puzzleslib.impl.core.ForgeModContainer@27df5806, /home/mc/mc-servers/main/mods/LMML-1.20.1-8.0.1-Forge.jar#275!/=fuzs.puzzleslib.impl.core.ForgeModContainer@69bc9584, /home/mc/mc-servers/main/mods/PuzzlesLib-v8.1.19-1.20.1-Forge.jar#282!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3214bad, /home/mc/mc-servers/main/mods/moonlight-1.20-2.11.20-forge.jar#277_/META-INF/jars/mixinextras-forge-0.2.1-beta.2.jar#312!/=fuzs.puzzleslib.impl.core.ForgeModContainer@52d7ab79, /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_CutAllSMP_v2.5.2.jar#244!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f95d64d, /home/mc/mc-servers/main/mods/cristellib-1.1.5-forge.jar#258!/=fuzs.puzzleslib.impl.core.ForgeModContainer@288728e, /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_MineAllSMP_v2.6.6.jar#245!/=fuzs.puzzleslib.impl.core.ForgeModContainer@b7d2d51, /home/mc/mc-servers/main/mods/Clumps-forge-1.20.1-12.0.0.4.jar#255!/=fuzs.puzzleslib.impl.core.ForgeModContainer@641ed324, /home/mc/mc-servers/main/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#291!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45984654, /home/mc/mc-servers/main/mods/elevatorid-1.20.1-lex-1.9.jar#261!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4c5406b, /home/mc/mc-servers/main/mods/curios-forge-5.9.0+1.20.1.jar#260!/=fuzs.puzzleslib.impl.core.ForgeModContainer@66b0e207, /home/mc/mc-servers/main/mods/gravestone-forge-1.20.1-1.0.15.jar#265!/=fuzs.puzzleslib.impl.core.ForgeModContainer@74a58a06, /home/mc/mc-servers/main/mods/elytraslot-forge-6.3.0+1.20.1.jar#262!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7308c820, /home/mc/mc-servers/main/mods/villagernames-1.20.1-7.3.jar#288!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d601832, /home/mc/mc-servers/main/mods/LMRB-1.20.1-8.2.2-Forge.jar#276!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ca17943, /home/mc/mc-servers/main/mods/libIPN-forge-1.20-4.0.2.jar#274!/=fuzs.puzzleslib.impl.core.ForgeModContainer@640c216b, /home/mc/mc-servers/main/mods/carryon-forge-1.20.1-2.1.2.7.jar#253!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5170bc02}
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for caelus: /home/mc/mc-servers/main/mods/caelus-forge-3.2.0+1.20.1.jar#252!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for croptopia: /home/mc/mc-servers/main/mods/Croptopia-1.20.1-FORGE-3.0.4.jar#259!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for simplybackpacks: /home/mc/mc-servers/main/mods/simplybackpacks-1.20.1-2.1.5-build.51.jar#283!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for epherolib: /home/mc/mc-servers/main/mods/EpheroLib-1.20.1-FORGE-1.2.0.jar#263!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for mores: /home/mc/mc-servers/main/mods/mOres-5.3.5-mc1.20.1.jar#278!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for inventoryprofilesnext: /home/mc/mc-servers/main/mods/InventoryProfilesNext-forge-1.20-1.10.10.jar#267!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for forge: /home/mc/mc-servers/main/libraries/net/minecraftforge/forge/1.20.1-47.2.32/forge-1.20.1-47.2.32-universal.jar#299!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for immersive_aircraft: /home/mc/mc-servers/main/mods/immersive_aircraft-1.0.1+1.20.1-forge.jar#266!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for jeresources: /home/mc/mc-servers/main/mods/JustEnoughResources-1.20.1-1.4.0.247.jar#271!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for storagebox: /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_StorageBox_v3.2.5.jar#247!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for architectury: /home/mc/mc-servers/main/mods/architectury-9.2.14-forge.jar#251!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for skyvillages: /home/mc/mc-servers/main/mods/SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar#284!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for collective: /home/mc/mc-servers/main/mods/collective-1.20.1-7.57.jar#256!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for storagedrawers: /home/mc/mc-servers/main/mods/storagedrawers-1.20.1-12.0.3.jar#285!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for neat: /home/mc/mc-servers/main/mods/Neat-1.20-35-FORGE.jar#280!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for journeymap: /home/mc/mc-servers/main/mods/journeymap-1.20.1-5.9.21-forge.jar#270!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for additionalplacements: /home/mc/mc-servers/main/mods/AdditionalPlacements-1.20-1.8.0.jar#249!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for puzzlesaccessapi: /home/mc/mc-servers/main/mods/PuzzlesLib-v8.1.19-1.20.1-Forge.jar#282!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for jei: /home/mc/mc-servers/main/mods/jei-1.20.1-forge-15.3.0.4.jar#269!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for yungsapi: /home/mc/mc-servers/main/mods/YungsApi-1.20-Forge-4.0.5.jar#290!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for mousetweaks: /home/mc/mc-servers/main/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#279!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for wwoo_forge: /home/mc/mc-servers/main/mods/WWOO-FABRIC+FORGE+QUILT-2.0.0.jar#289!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for labels: /home/mc/mc-servers/main/mods/labels-1.20-1.20.1.jar#273!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for kotlinforforge: /home/mc/mc-servers/main/mods/kotlinforforge-4.10.0-all.jar#272!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for cloth_config: /home/mc/mc-servers/main/mods/cloth-config-11.1.118-forge.jar#254!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for terralith: /home/mc/mc-servers/main/mods/Terralith_1.20_v2.5.1.jar#287!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for torchbowmod: /home/mc/mc-servers/main/mods/[1.20][Forge]TorchBowMod_v1.0.jar#248!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for jade: /home/mc/mc-servers/main/mods/Jade-1.20.1-forge-11.9.2.jar#268!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for betterstrongholds: /home/mc/mc-servers/main/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#292!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for pickupwidelysmp: /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_PickupWidelySMP_v1.2.4.jar#246!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for stylisheffects: /home/mc/mc-servers/main/mods/StylishEffects-v8.0.2-1.20.1-Forge.jar#286!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for crafttweaker: /home/mc/mc-servers/main/mods/CraftTweaker-forge-1.20.1-14.0.38.jar#257!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for moonlight: /home/mc/mc-servers/main/mods/moonlight-1.20-2.11.20-forge.jar#277!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for minecraft: /home/mc/mc-servers/main/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#294!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for appleskin: /home/mc/mc-servers/main/mods/appleskin-forge-mc1.20.1-2.5.1.jar#250!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for littlemaidmodelloader: /home/mc/mc-servers/main/mods/LMML-1.20.1-8.0.1-Forge.jar#275!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for puzzleslib: /home/mc/mc-servers/main/mods/PuzzlesLib-v8.1.19-1.20.1-Forge.jar#282!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for mixinextras: /home/mc/mc-servers/main/mods/moonlight-1.20-2.11.20-forge.jar#277!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for cutallsmp: /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_CutAllSMP_v2.5.2.jar#244!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for cristellib: /home/mc/mc-servers/main/mods/cristellib-1.1.5-forge.jar#258!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for mineallsmp: /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_MineAllSMP_v2.6.6.jar#245!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for clumps: /home/mc/mc-servers/main/mods/Clumps-forge-1.20.1-12.0.0.4.jar#255!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for bettermineshafts: /home/mc/mc-servers/main/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#291!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for elevatorid: /home/mc/mc-servers/main/mods/elevatorid-1.20.1-lex-1.9.jar#261!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for curios: /home/mc/mc-servers/main/mods/curios-forge-5.9.0+1.20.1.jar#260!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for gravestone: /home/mc/mc-servers/main/mods/gravestone-forge-1.20.1-1.0.15.jar#265!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for elytraslot: /home/mc/mc-servers/main/mods/elytraslot-forge-6.3.0+1.20.1.jar#262!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for villagernames: /home/mc/mc-servers/main/mods/villagernames-1.20.1-7.3.jar#288!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for littlemaidrebirth: /home/mc/mc-servers/main/mods/LMRB-1.20.1-8.2.2-Forge.jar#276!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for libipn: /home/mc/mc-servers/main/mods/libIPN-forge-1.20-4.0.2.jar#274!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Scheme for carryon: /home/mc/mc-servers/main/mods/carryon-forge-1.20.1-2.1.2.7.jar#253!/
-[09:56:46] [main/INFO] [Puzzles Lib]: Loading 51 mods:
+[10:36:51] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[10:36:51] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Ubuntu; OS Linux arch amd64 version 6.8.0-31-generic
+[10:36:51] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[10:36:51] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/mc/mc-servers/main/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23112!/ Service=ModLauncher Env=SERVER
+[10:36:51] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[10:36:51] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 8 dependencies adding them to mods collection
+[10:36:52] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[10:36:52] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[10:36:52] [main/WARN] [mixin]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:36:52] [main/WARN] [mixin]: Reference map 'labels-common-refmap.json' for labels-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:36:52] [main/WARN] [mixin]: Reference map 'labels-forge-refmap.json' for labels.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:36:52] [main/WARN] [mixin]: Reference map 'LMML-1.20.1-common-refmap.json' for littlemaidmodelloader-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:36:52] [main/WARN] [mixin]: Reference map 'LMML-1.20.1-forge-refmap.json' for littlemaidmodelloader.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:36:52] [main/WARN] [mixin]: Reference map 'LMRB-1.20.1-forge-refmap.json' for littlemaidrebirth.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:36:52] [main/INFO] [Puzzles Lib]: All mods {/home/mc/mc-servers/main/mods/caelus-forge-3.2.0+1.20.1.jar#252!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f2fb225, /home/mc/mc-servers/main/mods/Croptopia-1.20.1-FORGE-3.0.4.jar#259!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1883871b, /home/mc/mc-servers/main/mods/simplybackpacks-1.20.1-2.1.5-build.51.jar#283!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3e0a9b1d, /home/mc/mc-servers/main/mods/EpheroLib-1.20.1-FORGE-1.2.0.jar#263!/=fuzs.puzzleslib.impl.core.ForgeModContainer@52f9e8bb, /home/mc/mc-servers/main/mods/mOres-5.3.5-mc1.20.1.jar#278!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2035d65b, /home/mc/mc-servers/main/mods/InventoryProfilesNext-forge-1.20-1.10.10.jar#267!/=fuzs.puzzleslib.impl.core.ForgeModContainer@240a2619, /home/mc/mc-servers/main/libraries/net/minecraftforge/forge/1.20.1-47.2.32/forge-1.20.1-47.2.32-universal.jar#299!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4e3283f6, /home/mc/mc-servers/main/mods/immersive_aircraft-1.0.1+1.20.1-forge.jar#266!/=fuzs.puzzleslib.impl.core.ForgeModContainer@539316bb, /home/mc/mc-servers/main/mods/JustEnoughResources-1.20.1-1.4.0.247.jar#271!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d1a859c, /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_StorageBox_v3.2.5.jar#247!/=fuzs.puzzleslib.impl.core.ForgeModContainer@28554ac8, /home/mc/mc-servers/main/mods/architectury-9.2.14-forge.jar#251!/=fuzs.puzzleslib.impl.core.ForgeModContainer@72224107, /home/mc/mc-servers/main/mods/SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar#284!/=fuzs.puzzleslib.impl.core.ForgeModContainer@394fb736, /home/mc/mc-servers/main/mods/collective-1.20.1-7.57.jar#256!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3070f3e6, /home/mc/mc-servers/main/mods/storagedrawers-1.20.1-12.0.3.jar#285!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3271ec2a, /home/mc/mc-servers/main/mods/Neat-1.20-35-FORGE.jar#280!/=fuzs.puzzleslib.impl.core.ForgeModContainer@52bba91a, /home/mc/mc-servers/main/mods/journeymap-1.20.1-5.9.21-forge.jar#270!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1689527c, /home/mc/mc-servers/main/mods/AdditionalPlacements-1.20-1.8.0.jar#249!/=fuzs.puzzleslib.impl.core.ForgeModContainer@21516c88, /home/mc/mc-servers/main/mods/PuzzlesLib-v8.1.19-1.20.1-Forge.jar#282_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#313!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1c7cd434, /home/mc/mc-servers/main/mods/jei-1.20.1-forge-15.3.0.4.jar#269!/=fuzs.puzzleslib.impl.core.ForgeModContainer@13004dd8, /home/mc/mc-servers/main/mods/YungsApi-1.20-Forge-4.0.5.jar#290!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4fc6e776, /home/mc/mc-servers/main/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#279!/=fuzs.puzzleslib.impl.core.ForgeModContainer@65d9e72a, /home/mc/mc-servers/main/mods/WWOO-FABRIC+FORGE+QUILT-2.0.0.jar#289!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1f7e52d1, /home/mc/mc-servers/main/mods/labels-1.20-1.20.1.jar#273!/=fuzs.puzzleslib.impl.core.ForgeModContainer@e01a26b, /home/mc/mc-servers/main/mods/kotlinforforge-4.10.0-all.jar#272_/META-INF/jarjar/kffmod-4.10.0.jar#318!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7604198a, /home/mc/mc-servers/main/mods/cloth-config-11.1.118-forge.jar#254!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5cce40d7, /home/mc/mc-servers/main/mods/Terralith_1.20_v2.5.1.jar#287!/=fuzs.puzzleslib.impl.core.ForgeModContainer@314b7945, /home/mc/mc-servers/main/mods/[1.20][Forge]TorchBowMod_v1.0.jar#248!/=fuzs.puzzleslib.impl.core.ForgeModContainer@32da97fd, /home/mc/mc-servers/main/mods/Jade-1.20.1-forge-11.9.2.jar#268!/=fuzs.puzzleslib.impl.core.ForgeModContainer@64440065, /home/mc/mc-servers/main/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#292!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4aa22cc2, /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_PickupWidelySMP_v1.2.4.jar#246!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2049e582, /home/mc/mc-servers/main/mods/StylishEffects-v8.0.2-1.20.1-Forge.jar#286!/=fuzs.puzzleslib.impl.core.ForgeModContainer@464aeb09, /home/mc/mc-servers/main/mods/CraftTweaker-forge-1.20.1-14.0.38.jar#257!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c99c8d, /home/mc/mc-servers/main/mods/moonlight-1.20-2.11.20-forge.jar#277!/=fuzs.puzzleslib.impl.core.ForgeModContainer@59d6642a, /home/mc/mc-servers/main/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#294!/=fuzs.puzzleslib.impl.core.ForgeModContainer@365cef67, /home/mc/mc-servers/main/mods/appleskin-forge-mc1.20.1-2.5.1.jar#250!/=fuzs.puzzleslib.impl.core.ForgeModContainer@27df5806, /home/mc/mc-servers/main/mods/LMML-1.20.1-8.0.1-Forge.jar#275!/=fuzs.puzzleslib.impl.core.ForgeModContainer@69bc9584, /home/mc/mc-servers/main/mods/PuzzlesLib-v8.1.19-1.20.1-Forge.jar#282!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3214bad, /home/mc/mc-servers/main/mods/moonlight-1.20-2.11.20-forge.jar#277_/META-INF/jars/mixinextras-forge-0.2.1-beta.2.jar#312!/=fuzs.puzzleslib.impl.core.ForgeModContainer@52d7ab79, /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_CutAllSMP_v2.5.2.jar#244!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f95d64d, /home/mc/mc-servers/main/mods/cristellib-1.1.5-forge.jar#258!/=fuzs.puzzleslib.impl.core.ForgeModContainer@288728e, /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_MineAllSMP_v2.6.6.jar#245!/=fuzs.puzzleslib.impl.core.ForgeModContainer@b7d2d51, /home/mc/mc-servers/main/mods/Clumps-forge-1.20.1-12.0.0.4.jar#255!/=fuzs.puzzleslib.impl.core.ForgeModContainer@641ed324, /home/mc/mc-servers/main/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#291!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45984654, /home/mc/mc-servers/main/mods/elevatorid-1.20.1-lex-1.9.jar#261!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4c5406b, /home/mc/mc-servers/main/mods/curios-forge-5.9.0+1.20.1.jar#260!/=fuzs.puzzleslib.impl.core.ForgeModContainer@66b0e207, /home/mc/mc-servers/main/mods/gravestone-forge-1.20.1-1.0.15.jar#265!/=fuzs.puzzleslib.impl.core.ForgeModContainer@74a58a06, /home/mc/mc-servers/main/mods/elytraslot-forge-6.3.0+1.20.1.jar#262!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7308c820, /home/mc/mc-servers/main/mods/villagernames-1.20.1-7.3.jar#288!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d601832, /home/mc/mc-servers/main/mods/LMRB-1.20.1-8.2.2-Forge.jar#276!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ca17943, /home/mc/mc-servers/main/mods/libIPN-forge-1.20-4.0.2.jar#274!/=fuzs.puzzleslib.impl.core.ForgeModContainer@640c216b, /home/mc/mc-servers/main/mods/carryon-forge-1.20.1-2.1.2.7.jar#253!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5170bc02}
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for caelus: /home/mc/mc-servers/main/mods/caelus-forge-3.2.0+1.20.1.jar#252!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for croptopia: /home/mc/mc-servers/main/mods/Croptopia-1.20.1-FORGE-3.0.4.jar#259!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for simplybackpacks: /home/mc/mc-servers/main/mods/simplybackpacks-1.20.1-2.1.5-build.51.jar#283!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for epherolib: /home/mc/mc-servers/main/mods/EpheroLib-1.20.1-FORGE-1.2.0.jar#263!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for mores: /home/mc/mc-servers/main/mods/mOres-5.3.5-mc1.20.1.jar#278!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for inventoryprofilesnext: /home/mc/mc-servers/main/mods/InventoryProfilesNext-forge-1.20-1.10.10.jar#267!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for forge: /home/mc/mc-servers/main/libraries/net/minecraftforge/forge/1.20.1-47.2.32/forge-1.20.1-47.2.32-universal.jar#299!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for immersive_aircraft: /home/mc/mc-servers/main/mods/immersive_aircraft-1.0.1+1.20.1-forge.jar#266!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for jeresources: /home/mc/mc-servers/main/mods/JustEnoughResources-1.20.1-1.4.0.247.jar#271!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for storagebox: /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_StorageBox_v3.2.5.jar#247!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for architectury: /home/mc/mc-servers/main/mods/architectury-9.2.14-forge.jar#251!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for skyvillages: /home/mc/mc-servers/main/mods/SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar#284!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for collective: /home/mc/mc-servers/main/mods/collective-1.20.1-7.57.jar#256!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for storagedrawers: /home/mc/mc-servers/main/mods/storagedrawers-1.20.1-12.0.3.jar#285!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for neat: /home/mc/mc-servers/main/mods/Neat-1.20-35-FORGE.jar#280!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for journeymap: /home/mc/mc-servers/main/mods/journeymap-1.20.1-5.9.21-forge.jar#270!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for additionalplacements: /home/mc/mc-servers/main/mods/AdditionalPlacements-1.20-1.8.0.jar#249!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for puzzlesaccessapi: /home/mc/mc-servers/main/mods/PuzzlesLib-v8.1.19-1.20.1-Forge.jar#282!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for jei: /home/mc/mc-servers/main/mods/jei-1.20.1-forge-15.3.0.4.jar#269!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for yungsapi: /home/mc/mc-servers/main/mods/YungsApi-1.20-Forge-4.0.5.jar#290!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for mousetweaks: /home/mc/mc-servers/main/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#279!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for wwoo_forge: /home/mc/mc-servers/main/mods/WWOO-FABRIC+FORGE+QUILT-2.0.0.jar#289!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for labels: /home/mc/mc-servers/main/mods/labels-1.20-1.20.1.jar#273!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for kotlinforforge: /home/mc/mc-servers/main/mods/kotlinforforge-4.10.0-all.jar#272!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for cloth_config: /home/mc/mc-servers/main/mods/cloth-config-11.1.118-forge.jar#254!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for terralith: /home/mc/mc-servers/main/mods/Terralith_1.20_v2.5.1.jar#287!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for torchbowmod: /home/mc/mc-servers/main/mods/[1.20][Forge]TorchBowMod_v1.0.jar#248!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for jade: /home/mc/mc-servers/main/mods/Jade-1.20.1-forge-11.9.2.jar#268!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for betterstrongholds: /home/mc/mc-servers/main/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#292!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for pickupwidelysmp: /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_PickupWidelySMP_v1.2.4.jar#246!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for stylisheffects: /home/mc/mc-servers/main/mods/StylishEffects-v8.0.2-1.20.1-Forge.jar#286!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for crafttweaker: /home/mc/mc-servers/main/mods/CraftTweaker-forge-1.20.1-14.0.38.jar#257!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for moonlight: /home/mc/mc-servers/main/mods/moonlight-1.20-2.11.20-forge.jar#277!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for minecraft: /home/mc/mc-servers/main/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#294!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for appleskin: /home/mc/mc-servers/main/mods/appleskin-forge-mc1.20.1-2.5.1.jar#250!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for littlemaidmodelloader: /home/mc/mc-servers/main/mods/LMML-1.20.1-8.0.1-Forge.jar#275!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for puzzleslib: /home/mc/mc-servers/main/mods/PuzzlesLib-v8.1.19-1.20.1-Forge.jar#282!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for mixinextras: /home/mc/mc-servers/main/mods/moonlight-1.20-2.11.20-forge.jar#277!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for cutallsmp: /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_CutAllSMP_v2.5.2.jar#244!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for cristellib: /home/mc/mc-servers/main/mods/cristellib-1.1.5-forge.jar#258!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for mineallsmp: /home/mc/mc-servers/main/mods/[1.20.1][forge47.1.0]mod_MineAllSMP_v2.6.6.jar#245!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for clumps: /home/mc/mc-servers/main/mods/Clumps-forge-1.20.1-12.0.0.4.jar#255!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for bettermineshafts: /home/mc/mc-servers/main/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#291!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for elevatorid: /home/mc/mc-servers/main/mods/elevatorid-1.20.1-lex-1.9.jar#261!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for curios: /home/mc/mc-servers/main/mods/curios-forge-5.9.0+1.20.1.jar#260!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for gravestone: /home/mc/mc-servers/main/mods/gravestone-forge-1.20.1-1.0.15.jar#265!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for elytraslot: /home/mc/mc-servers/main/mods/elytraslot-forge-6.3.0+1.20.1.jar#262!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for villagernames: /home/mc/mc-servers/main/mods/villagernames-1.20.1-7.3.jar#288!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for littlemaidrebirth: /home/mc/mc-servers/main/mods/LMRB-1.20.1-8.2.2-Forge.jar#276!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for libipn: /home/mc/mc-servers/main/mods/libIPN-forge-1.20-4.0.2.jar#274!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Scheme for carryon: /home/mc/mc-servers/main/mods/carryon-forge-1.20.1-2.1.2.7.jar#253!/
+[10:36:52] [main/INFO] [Puzzles Lib]: Loading 51 mods:
 	- additionalplacements 1.8.0
 	- appleskin 2.5.1+mc1.20.1
 	- architectury 9.2.14
@@ -117,150 +117,94 @@
 	- villagernames 7.3
 	- wwoo_forge 2.0.0
 	- yungsapi 1.20-Forge-4.0.5
-[09:56:46] [main/WARN] [mixin]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:56:46] [main/WARN] [mixin]: Error loading class: com/simibubi/create/content/contraptions/StructureTransform (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.StructureTransform)
-[09:56:46] [main/WARN] [mixin]: @Mixin target com.simibubi.create.content.contraptions.StructureTransform was not found mixins.additionalplacements.json:MixinStructureTransform
-[09:56:46] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
-[09:56:50] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for stylisheffects:main
-[09:56:50] [modloading-worker-0/INFO] [Collective]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[09:56:50] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
-[09:56:50] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.32, for MC 1.20.1 with MCP 20230612.114412
-[09:56:50] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.32 Initialized
-[09:56:50] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.105 Initialized
-[09:56:50] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
-[09:56:50] [modloading-worker-0/INFO] [Additional Placements]: Attempting to manually load Additional Placements config early.
-[09:56:50] [modloading-worker-0/INFO] [Additional Placements]: manual config load successful.
-[09:56:50] [modloading-worker-0/WARN] [Additional Placements]: During block registration you may recieve several reports of "Potentially Dangerous alternative prefix `additionalplacements`". Ignore these, they are intended.
-[09:56:50] [modloading-worker-0/INFO] [Collective]: Loading Collective version 7.57.
-[09:56:50] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig]: Creating default config file: croptopia_v3.conf
-[09:56:50] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
-[09:56:50] [modloading-worker-0/INFO] [libIPN]: [libIPN] libIPN - init in Kotlin
-[09:56:50] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge]: Kotlin For Forge Enabled!
-[09:56:50] [modloading-worker-0/INFO] [net.minecraft.storagebox.mod_StorageBox]: mod_StorageBox constructor start(DEDICATED_SERVER).
-[09:56:50] [modloading-worker-0/INFO] [de.cristelknight999.wwoo_forge.wwoo_forge]: Enabling William Wythers' Overhauled Overworld [FORGE]
-[09:56:50] [modloading-worker-0/INFO] [Inventory Profiles Next]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
-[09:56:50] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
-[09:56:51] [main/INFO] [Moonlight]: Initialized block sets in 6ms
-[09:56:51] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / littlemaidrebirth:little_maid_mob] was not realized!
-[09:56:51] [main/INFO] [net.minecraft.storagebox.mod_StorageBox]: mod_StorageBox.registerRecipes invoked.
-[09:56:51] [main/INFO] [net.minecraft.scalar.cutall.ModConfig]: net.minecraft.scalar.cutall.ModConfig::onLoad file:/home/mc/mc-servers/main/config/cutallsmp-common.toml
-[09:56:51] [Thread-1/INFO] [net.minecraft.scalar.cutall.ModConfig]: net.minecraft.scalar.cutall.mod_CutAllSMP config reload.
-[09:56:51] [main/INFO] [net.minecraft.scalar.pickupwidely.ModConfig]: net.minecraft.scalar.pickupwidely.ModConfig::onLoad file:/home/mc/mc-servers/main/config/pickupwidelysmp-common.toml
-[09:56:51] [Thread-1/INFO] [net.minecraft.scalar.cutall.ModConfig]: net.minecraft.scalar.cutall.mod_CutAllSMP config reload.
-[09:56:51] [Thread-1/INFO] [net.minecraft.scalar.pickupwidely.ModConfig]: net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP config reload.
-[09:56:51] [Thread-1/INFO] [net.minecraft.scalar.pickupwidely.ModConfig]: net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP config reload.
-[09:56:51] [main/INFO] [net.minecraft.scalar.mineall.ModConfig]: net.minecraft.scalar.mineall.ModConfig::onLoad file:/home/mc/mc-servers/main/config/mineallsmp-common.toml
-[09:56:51] [Thread-1/INFO] [net.minecraft.scalar.mineall.ModConfig]: net.minecraft.scalar.mineall.mod_MineAllSMP config reload.
-[09:56:51] [Thread-1/INFO] [net.minecraft.scalar.mineall.ModConfig]: net.minecraft.scalar.mineall.mod_MineAllSMP config reload.
-[09:56:51] [main/INFO] [net.minecraft.storagebox.ModConfig]: net.minecraft.storagebox.ModConfig::onLoad file:/home/mc/mc-servers/main/config/storagebox-common.toml
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 clay_ball = 1 clay
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 snowball = 1 snow_block
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 glowstone_dust = 1 glowstone
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 brick = 1 bricks
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 nether_brick = 1 nether_bricks
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 9 nether_wart = 1 nether_wart_block
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 quartz = 1 quartz_block
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 9 melon_slice = 1 melon
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 sand = 1 sandstone
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 red_sand = 1 red_sandstone
-[09:56:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidmodelloader:sync_multi_model
-[09:56:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidmodelloader:sync_sound_pack
-[09:56:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:set_moving_state
-[09:56:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:sync_sound_config
-[09:56:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:open_iff_screen
-[09:56:51] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 clay_ball = 1 clay
-[09:56:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:set_iff
-[09:56:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:set_blood_suck
-[09:56:52] [main/INFO] [journeymap]: Initializing Packet Registries
-[09:56:52] [main/INFO] [Moonlight]: Initialized color sets in 14ms
-[09:56:52] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[09:56:52] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[09:56:52] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[09:56:52] [modloading-worker-0/INFO] [Jade]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
-[09:56:52] [modloading-worker-0/INFO] [Jade]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
-[09:56:52] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09:56:53] [main/ERROR] [Cristel Lib]: Cristel Lib Config Pack has no data
-[09:56:55] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 9 recipes
-[09:56:55] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1754 advancements
-[09:56:55] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 10 curio slots
-[09:56:55] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
-[09:56:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
-[09:56:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[09:56:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[09:56:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
-[09:56:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[09:56:56] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
-[09:56:56] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-727 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.32, NeoForge version 47.1.105)
-[09:56:56] [Server thread/INFO] [Minecraft]: Debug logging is enabled
-[09:56:56] [Server thread/INFO] []: Server Ping Player Sample Count: 20
-[09:56:56] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
-[09:56:57] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Loading voicechat v2.5.13
-[09:56:57] [Server thread/INFO] [com.halmates.mcdiscordnotifier.MCDiscordNotifier]: [MCDiscordNotifier] Loading MCDiscordNotifier v1.0.0
-[09:56:57] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
-[09:56:57] [Thread-1/INFO] [journeymap]: Loading JourneyMap Forge Configs
-[09:56:57] [Thread-1/INFO] [journeymap]: Loading JourneyMap Forge Configs
-[09:56:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[09:56:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
-[09:57:01] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:01] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:01] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:01] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:02] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:02] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:02] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:02] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:02] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
-[09:57:03] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4443 ms
-[09:57:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
-[09:57:04] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:04] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:04] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:04] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1487 ms
-[09:57:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
-[09:57:05] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:05] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[09:57:05] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 3%
-[09:57:06] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1403 ms
-[09:57:06] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Enabling voicechat v2.5.13
-[09:57:06] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Initializing compatibility for Bukkit version 1.20.1-R0.1
-[09:57:06] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Compatibility version 18
-[09:57:06] [Server thread/WARN] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Commodore command completion is not supported
-[09:57:06] [Server thread/INFO] [com.halmates.mcdiscordnotifier.MCDiscordNotifier]: [MCDiscordNotifier] Enabling MCDiscordNotifier v1.0.0
-[09:57:07] [Server thread/WARN] []: [Server thread] INFO JDA - Login Successful!
-[09:57:07] [JDA MainWS-WriteThread/WARN] []: [JDA MainWS-WriteThread] INFO WebSocketClient - Connected to WebSocket
-[09:57:08] [JDA MainWS-ReadThread/WARN] []: [JDA MainWS-ReadThread] INFO JDA - Finished Loading!
-[09:57:08] [JDA MainWS-ReadThread/INFO] [Minecraft]: Discordに接続しました。 [MC SERVER FOR KONBU#6606]
-[09:57:08] [Server thread/WARN] []: [Server thread] INFO JDA - Login Successful!
-[09:57:09] [JDA MainWS-ReadThread/WARN] []: [JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
-[09:57:09] [JDA MainWS-ReadThread/WARN] []: [JDA MainWS-ReadThread] INFO JDA - Finished Loading!
-[09:57:09] [JDA MainWS-ReadThread/INFO] [Minecraft]: Discordに接続しました。 [MC SERVER FOR KONBU#6606]
-[09:57:09] [Server thread/INFO] [Minecraft]: プラグインが起動しました。
-[09:57:09] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
-[09:57:09] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
-[09:57:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (12.695s)! For help, type "help"
-[09:57:09] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
-[09:57:09] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
-[09:57:10] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Loading plugins
-[09:57:10] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Loaded 0 plugin(s)
-[09:57:10] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Initializing plugins
-[09:57:10] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Initialized 0 plugin(s)
-[09:57:10] [VoiceChatServerThread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Voice chat server started at port 24454
-[09:57:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Server] お知らせ: 30秒後にサーバーを再起動します
-[09:57:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving the game (this may take a moment!)
-[09:57:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saved the game
-[09:57:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping the server
-[09:57:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[09:57:10] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
-[09:57:10] [Server thread/INFO] [com.halmates.mcdiscordnotifier.MCDiscordNotifier]: [MCDiscordNotifier] Disabling MCDiscordNotifier v1.0.0
-[09:57:10] [Server thread/INFO] [Minecraft]: プラグインが停止しました。
-[09:57:11] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Disabling voicechat v2.5.13
-[09:57:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[09:57:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[09:57:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:57:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[09:57:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[09:57:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:57:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:57:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:57:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09:57:13] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[10:36:52] [main/WARN] [mixin]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:36:53] [main/WARN] [mixin]: Error loading class: com/simibubi/create/content/contraptions/StructureTransform (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.StructureTransform)
+[10:36:53] [main/WARN] [mixin]: @Mixin target com.simibubi.create.content.contraptions.StructureTransform was not found mixins.additionalplacements.json:MixinStructureTransform
+[10:36:53] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
+[10:36:57] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for stylisheffects:main
+[10:36:57] [modloading-worker-0/INFO] [Collective]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[10:36:57] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[10:36:57] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[10:36:57] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.32, for MC 1.20.1 with MCP 20230612.114412
+[10:36:57] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.32 Initialized
+[10:36:57] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.105 Initialized
+[10:36:57] [modloading-worker-0/INFO] [Additional Placements]: Attempting to manually load Additional Placements config early.
+[10:36:57] [modloading-worker-0/INFO] [Additional Placements]: manual config load successful.
+[10:36:57] [modloading-worker-0/WARN] [Additional Placements]: During block registration you may recieve several reports of "Potentially Dangerous alternative prefix `additionalplacements`". Ignore these, they are intended.
+[10:36:57] [modloading-worker-0/INFO] [Collective]: Loading Collective version 7.57.
+[10:36:57] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig]: Creating default config file: croptopia_v3.conf
+[10:36:57] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[10:36:57] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
+[10:36:57] [modloading-worker-0/INFO] [net.minecraft.storagebox.mod_StorageBox]: mod_StorageBox constructor start(DEDICATED_SERVER).
+[10:36:57] [modloading-worker-0/INFO] [de.cristelknight999.wwoo_forge.wwoo_forge]: Enabling William Wythers' Overhauled Overworld [FORGE]
+[10:36:57] [modloading-worker-0/INFO] [libIPN]: [libIPN] libIPN - init in Kotlin
+[10:36:57] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge]: Kotlin For Forge Enabled!
+[10:36:57] [modloading-worker-0/INFO] [Inventory Profiles Next]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[10:36:58] [main/INFO] [Moonlight]: Initialized block sets in 7ms
+[10:36:58] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / littlemaidrebirth:little_maid_mob] was not realized!
+[10:36:58] [main/INFO] [net.minecraft.storagebox.mod_StorageBox]: mod_StorageBox.registerRecipes invoked.
+[10:36:58] [main/INFO] [net.minecraft.scalar.cutall.ModConfig]: net.minecraft.scalar.cutall.ModConfig::onLoad file:/home/mc/mc-servers/main/config/cutallsmp-common.toml
+[10:36:58] [main/INFO] [net.minecraft.scalar.pickupwidely.ModConfig]: net.minecraft.scalar.pickupwidely.ModConfig::onLoad file:/home/mc/mc-servers/main/config/pickupwidelysmp-common.toml
+[10:36:58] [Thread-1/INFO] [net.minecraft.scalar.cutall.ModConfig]: net.minecraft.scalar.cutall.mod_CutAllSMP config reload.
+[10:36:58] [Thread-1/INFO] [net.minecraft.scalar.cutall.ModConfig]: net.minecraft.scalar.cutall.mod_CutAllSMP config reload.
+[10:36:58] [Thread-1/INFO] [net.minecraft.scalar.pickupwidely.ModConfig]: net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP config reload.
+[10:36:58] [main/INFO] [net.minecraft.scalar.mineall.ModConfig]: net.minecraft.scalar.mineall.ModConfig::onLoad file:/home/mc/mc-servers/main/config/mineallsmp-common.toml
+[10:36:58] [Thread-1/INFO] [net.minecraft.scalar.pickupwidely.ModConfig]: net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP config reload.
+[10:36:58] [Thread-1/INFO] [net.minecraft.scalar.mineall.ModConfig]: net.minecraft.scalar.mineall.mod_MineAllSMP config reload.
+[10:36:58] [Thread-1/INFO] [net.minecraft.scalar.mineall.ModConfig]: net.minecraft.scalar.mineall.mod_MineAllSMP config reload.
+[10:36:58] [main/INFO] [net.minecraft.storagebox.ModConfig]: net.minecraft.storagebox.ModConfig::onLoad file:/home/mc/mc-servers/main/config/storagebox-common.toml
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 clay_ball = 1 clay
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 snowball = 1 snow_block
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 glowstone_dust = 1 glowstone
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 brick = 1 bricks
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 nether_brick = 1 nether_bricks
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 quartz = 1 quartz_block
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 9 melon_slice = 1 melon
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 sand = 1 sandstone
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 red_sand = 1 red_sandstone
+[10:36:58] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidmodelloader:sync_multi_model
+[10:36:58] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidmodelloader:sync_sound_pack
+[10:36:58] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:set_moving_state
+[10:36:58] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:sync_sound_config
+[10:36:58] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:open_iff_screen
+[10:36:58] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:set_iff
+[10:36:58] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id littlemaidrebirth:set_blood_suck
+[10:36:58] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 clay_ball = 1 clay
+[10:36:59] [main/INFO] [journeymap]: Initializing Packet Registries
+[10:36:59] [main/INFO] [Moonlight]: Initialized color sets in 12ms
+[10:36:59] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[10:36:59] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[10:36:59] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[10:36:59] [modloading-worker-0/INFO] [Jade]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[10:36:59] [modloading-worker-0/INFO] [Jade]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[10:37:00] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:37:00] [main/ERROR] [Cristel Lib]: Cristel Lib Config Pack has no data
+[10:37:01] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 9 recipes
+[10:37:01] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1754 advancements
+[10:37:01] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 10 curio slots
+[10:37:02] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
+[10:37:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[10:37:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[10:37:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[10:37:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[10:37:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[10:37:03] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[10:37:03] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-727 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.32, NeoForge version 47.1.105)
+[10:37:04] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[10:37:04] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[10:37:04] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[10:37:04] [Server thread/INFO] [de.maxhenkel.voicechat.Voicechat]: [voicechat] Loading voicechat v2.5.13
+[10:37:04] [Server thread/INFO] [com.halmates.mcdiscordnotifier.MCDiscordNotifier]: [MCDiscordNotifier] Loading MCDiscordNotifier v1.0.0
+[10:37:04] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[10:37:04] [Thread-1/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[10:37:04] [Thread-1/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[10:37:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[10:37:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[10:37:08] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[10:37:08] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[10:37:08] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[10:37:08] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[10:37:08] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[10:37:08] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[10:37:09] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%

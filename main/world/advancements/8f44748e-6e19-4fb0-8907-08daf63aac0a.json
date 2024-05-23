@@ -1787,21 +1787,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2024-05-21 22:46:32 +0900"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/cooked_shrimp_from_shrimp": {
-    "criteria": {
-      "has_shrimp": "2024-05-21 22:47:54 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
       "has_moss_block": "2024-05-21 22:30:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2024-05-21 22:30:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-05-21 22:30:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-05-21 22:46:32 +0900"
     },
     "done": true
   },
@@ -1817,6 +1823,18 @@
     },
     "done": true
   },
+  "mores:obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_cobalt_ore": "2024-05-21 22:47:10 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_shrimp_from_shrimp": {
+    "criteria": {
+      "has_shrimp": "2024-05-21 22:47:54 +0900"
+    },
+    "done": true
+  },
   "croptopia:recipes/misc/deep_fried_shrimp": {
     "criteria": {
       "has_shrimp": "2024-05-21 22:47:54 +0900"
@@ -1829,21 +1847,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/moss_carpet": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "has_moss_block": "2024-05-21 22:30:31 +0900"
+      "minecraft:warped_forest": "2024-05-22 22:36:44 +0900"
+    },
+    "done": false
+  },
+  "storagedrawers:recipes/storagedrawers/compacting_drawers": {
+    "criteria": {
+      "has_chest": "2024-05-22 22:42:12 +0900"
     },
     "done": true
   },
-  "mores:obtain_cobalt_ore": {
+  "minecraft:story/enter_the_nether": {
     "criteria": {
-      "obtain_cobalt_ore": "2024-05-21 22:47:10 +0900"
+      "entered_nether": "2024-05-22 22:36:44 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+  "storagedrawers:recipes/storagedrawers/controller": {
     "criteria": {
-      "has_moss_block": "2024-05-21 22:30:31 +0900"
+      "has_chest": "2024-05-22 22:42:12 +0900"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-05-22 22:36:44 +0900"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/upgrade_template": {
+    "criteria": {
+      "has_chest": "2024-05-22 22:42:12 +0900"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/controller_slave": {
+    "criteria": {
+      "has_chest": "2024-05-22 22:42:12 +0900"
     },
     "done": true
   },
