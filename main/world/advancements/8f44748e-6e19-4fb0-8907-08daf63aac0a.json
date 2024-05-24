@@ -297,7 +297,8 @@
       "minecraft:skeleton": "2024-05-18 22:54:01 +0900",
       "minecraft:spider": "2024-05-19 00:22:33 +0900",
       "minecraft:creeper": "2024-05-19 00:29:40 +0900",
-      "minecraft:zombie": "2024-05-18 22:53:26 +0900"
+      "minecraft:zombie": "2024-05-18 22:53:26 +0900",
+      "minecraft:zombie_villager": "2024-05-23 19:57:05 +0900"
     },
     "done": false
   },
@@ -490,7 +491,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "apple": "2024-05-18 23:47:57 +0900",
-      "rotten_flesh": "2024-05-18 23:18:58 +0900"
+      "rotten_flesh": "2024-05-18 23:18:58 +0900",
+      "cookie": "2024-05-23 19:58:08 +0900",
+      "melon_slice": "2024-05-23 20:30:07 +0900"
     },
     "done": false
   },
@@ -1853,27 +1856,27 @@
     },
     "done": false
   },
-  "storagedrawers:recipes/storagedrawers/compacting_drawers": {
-    "criteria": {
-      "has_chest": "2024-05-22 22:42:12 +0900"
-    },
-    "done": true
-  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-05-22 22:36:44 +0900"
     },
     "done": true
   },
-  "storagedrawers:recipes/storagedrawers/controller": {
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-05-22 22:36:44 +0900"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/compacting_drawers": {
     "criteria": {
       "has_chest": "2024-05-22 22:42:12 +0900"
     },
     "done": true
   },
-  "minecraft:nether/root": {
+  "storagedrawers:recipes/storagedrawers/controller": {
     "criteria": {
-      "entered_nether": "2024-05-22 22:36:44 +0900"
+      "has_chest": "2024-05-22 22:42:12 +0900"
     },
     "done": true
   },
@@ -1886,6 +1889,48 @@
   "storagedrawers:recipes/storagedrawers/controller_slave": {
     "criteria": {
       "has_chest": "2024-05-22 22:42:12 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-05-23 20:06:47 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-05-23 20:06:47 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/potato_chips": {
+    "criteria": {
+      "has_potato": "2024-05-23 20:06:47 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-05-23 20:06:47 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_water_bottle": {
+    "criteria": {
+      "has_water": "2024-05-23 20:37:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-05-23 20:37:02 +0900"
+    },
+    "done": true
+  },
+  "croptopia:recipes/french_fries": {
+    "criteria": {
+      "has_potato": "2024-05-23 20:06:47 +0900"
     },
     "done": true
   },

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 SESSION_NAME="minecraft_main"
 SERVICE='mohist-1.20.1-693-server.jar' # サーバーファイルの名前
