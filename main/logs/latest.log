@@ -234,3 +234,21 @@
 [03:13:52] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
 [03:19:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving the game (this may take a moment!)
 [03:19:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saved the game
+[03:21:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Server] お知らせ: 30秒後にサーバーを再起動します
+[03:21:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving the game (this may take a moment!)
+[03:21:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saved the game
+[03:21:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping the server
+[03:21:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[03:21:50] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[03:21:50] [Server thread/INFO] [com.halmates.mcdiscordnotifier.MCDiscordNotifier]: [MCDiscordNotifier] Disabling MCDiscordNotifier v1.0.0
+[03:21:50] [Server thread/INFO] [Minecraft]: プラグインが停止しました。
+[03:21:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[03:21:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[03:21:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:21:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:21:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:21:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:21:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:21:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:21:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:21:54] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
