@@ -5,13 +5,14 @@ SERVICE='mohist-1.20.1-693-server.jar' # サーバーファイルの名前
 DIR='/home/mc/mc-servers/main/'
 
 # メモリ割り当て
-XMX="6G"
-XMS="6G"
+XMX="5632M"
+XMS="5632M"
 
 cd $DIR
 case $1 in
     save-all)
-        tmux send-keys -t "$SESSION_NAME" "save-all" C-m
+	echo "saving ...."
+   	tmux send-keys -t "$SESSION_NAME" "save-all" C-m
         sleep 30;;
     start)
         echo "Starting $SERVICE..."

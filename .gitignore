@@ -1,6 +1,6 @@
 # Ignore everything in /main/ directory
 /main/*
-
+/event*
 # Except the following files and directories
 !/main/start.sh
 !/main/logs/
